@@ -12,75 +12,47 @@ export default function Races() {
 
             <main className={styles.main}>
                 <div className={styles.grid}>
-                    <Card style={{ width: '20rem' }} className={styles.card}>
-                        <Card.Img variant="top" src="/kina_avatar.jpg" />
-                        <Card.Body>
-                            <Card.Title>Knights</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                            </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
-                        </Card.Body>
-                    </Card>
+                    <a>
+                        <Card style={{ width: '20rem' }} className={styles.card}>
+                            <Card.Img variant="top" src="/kina_avatar.jpg" />
+                            <Card.Body>
+                                <Card.Title>Aasgardianos</Card.Title>
+                            </Card.Body>
+                        </Card>
+                    </a>
 
                     <Card style={{ width: '20rem' }} className={styles.card}>
                         <Card.Img variant="top" src="/mage_avatar.jpg" />
                         <Card.Body>
-                            <Card.Title>Sorcerers</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                            </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
+                            <Card.Title>Atlantes</Card.Title>
                         </Card.Body>
                     </Card>
 
                     <Card style={{ width: '20rem' }} className={styles.card}>
                         <Card.Img variant="top" src="/paly_avatar.jpg" />
                         <Card.Body>
-                            <Card.Title>Paladins</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                            </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
+                            <Card.Title>Methaliers</Card.Title>
                         </Card.Body>
                     </Card>
 
                     <Card style={{ width: '20rem' }} className={styles.card}>
                         <Card.Img variant="top" src="/druid_avatar.jpg" />
                         <Card.Body>
-                            <Card.Title>Druids</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                            </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
+                            <Card.Title>Olympianos</Card.Title>
                         </Card.Body>
                     </Card>
 
                     <Card style={{ width: '20rem' }} className={styles.card}>
                         <Card.Img variant="top" src="/druid_avatar.jpg" />
                         <Card.Body>
-                            <Card.Title>Druids</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                            </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
+                            <Card.Title>Phantons</Card.Title>
                         </Card.Body>
                     </Card>
 
                     <Card style={{ width: '20rem' }} className={styles.card}>
                         <Card.Img variant="top" src="/druid_avatar.jpg" />
                         <Card.Body>
-                            <Card.Title>Druids</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                            </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
+                            <Card.Title>Teranos</Card.Title>
                         </Card.Body>
                     </Card>
 

@@ -1,7 +1,5 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import { Nav, Navbar } from 'react-bootstrap'
-import CopyrightIcon from '@material-ui/icons/Copyright';
 
 export default function World() {
     return (

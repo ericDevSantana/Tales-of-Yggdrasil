@@ -14,3 +14,8 @@ a {
 * {
   box-sizing: border-box;
 }
+
+main h1 {
+  font-size: 3rem;
+  margin: 30px 0 40px 0;
+}

@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
       
       <main className={styles.main}>  
-        <h1>Bem Vindo a</h1>
+        {/* <h1>Bem Vindo a</h1> */}
 
         <Image className={styles.logo} src='/extendedlogo.png' fluid/>
         
