@@ -8,7 +8,7 @@
 }
 
 .main {
-  padding: 1% 10%;
+  padding: 1% 15%;
   text-align: justify;
   font-size: 1.5rem;
   flex: 1;
@@ -24,11 +24,11 @@
   background-size: cover;
 }
 
-.contact {
-  background-image: url("../public/contact.jpg");
+.library {
+  background-image: url("../public/library.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  color: aliceblue;
+  color: #ffffff;
 }
 
 .footer {
@@ -79,6 +79,8 @@
 
 .grid {
   display: flex;
+  justify-content: space-around;
+  align-content: space-between;
   align-items: center;
   flex-wrap: wrap;
 
@@ -86,7 +88,7 @@
 }
 
 .card {
-  margin: 20px 40px;
+  margin: 50px;
   text-align: center;
 }
 
@@ -95,12 +97,28 @@
 .card:active {
   color: #0070f3;
   border-color: #0070f3;
+  cursor: pointer;
+}
+
+.books {
+  margin: 20px;
+  text-align: center;
+  opacity: 1;
+}
+
+.books:hover,
+.books:focus,
+.books:active {
+  color: #0070f3;
+  border-color: #0070f3;
+  cursor: pointer;
 }
 
 .logo {
   height: 500px;
   width: 1000px;
 }
+
 
 @media (max-width: 600px) {
   .grid {

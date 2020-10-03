@@ -10,7 +10,7 @@ export default function Races() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
-            <main className={styles.main}>
+            <main className={styles.main} style={{ padding: '1% 5%' }}>
                 <div className={styles.grid}>
                     <a>
                         <Card style={{ width: '20rem' }} className={styles.card}>
