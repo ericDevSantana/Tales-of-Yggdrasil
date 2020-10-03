@@ -4,7 +4,7 @@ import { Card, Button } from 'react-bootstrap'
 
 export default function Books() {
     return (
-        <div className={styles.library}>    
+        <div>    
             <Head>
                 <title>Os Livros</title>
                 <link rel="icon" href="/favicon.ico" />
