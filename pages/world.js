@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.css'
 
 export default function World() {
     return (
-        <div>
+        <div className={styles.world}>
             <Head>
                 <title>The World</title>
                 <link rel="icon" href="/favicon.ico" />
