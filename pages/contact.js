@@ -19,6 +19,10 @@ export default function Contacts() {
         });
     }
 
+    function handleSubmit(event) {
+        window.open('mailto:test@example.com?subject=subject&body=body');
+    }
+
     return (
         <div>
             <Head>
@@ -30,14 +34,14 @@ export default function Contacts() {
                 <Form style={{ width: '800px', height: '400px' }}>
                     <Form.Group controlId="exampleForm.ControlInput1">
                         <Form.Label>E-mail:</Form.Label>
-                        <Form.Control type="email" pattern="[a-z0-9]+[@][a-z]+[.][a-z]+" value={contactMessage.email} onChange={handleChanges} name="email"/>
+                        <Form.Control type="email" pattern="[a-z0-9]+[@][a-z]+[.][a-z]+" value={contactMessage.email} onChange={handleChanges} name="email" required/>
                     </Form.Group>
 
                     <Form.Group controlId="exampleForm.ControlTextarea1">
                         <Form.Label>Mensagem</Form.Label>
                         <Form.Control as="textarea" rows="3" value={contactMessage.message} onChange={handleChanges} name="message"/>
                     </Form.Group>
-                    <Button type="submit" variant="secondary">Enviar</Button>{' '}
+                    <Button type="submit" variant="secondary" onClick={handleSubmit}>Enviar</Button>{' '}
                 </Form>
                 
             </main>
