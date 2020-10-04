@@ -20,7 +20,7 @@ export default function Contacts() {
     }
 
     function handleSubmit(event) {
-        window.open('mailto:test@example.com?subject=subject&body=body');
+        window.open('mailto:yabu.games@outlook.com?subject=subject&body='+ contactMessage.message);
     }
 
     return (
@@ -39,7 +39,7 @@ export default function Contacts() {
 
                     <Form.Group controlId="exampleForm.ControlTextarea1">
                         <Form.Label>Mensagem</Form.Label>
-                        <Form.Control as="textarea" rows="3" value={contactMessage.message} onChange={handleChanges} name="message"/>
+                        <Form.Control as="textarea" rows="3" value={contactMessage.message} onChange={handleChanges} name="message" required/>
                     </Form.Group>
                     <Button type="submit" variant="secondary" onClick={handleSubmit}>Enviar</Button>{' '}
                 </Form>

@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import { Card } from 'react-bootstrap'
 
 export default function World() {
     return (
@@ -22,6 +23,15 @@ export default function World() {
                 <p>
                     Faça o download dos mapas dos 5 continentes de Yggdrasil logo a baixo! Alguns mapas tiveram de ser separados por partes pois são muito grandes. Lembre-se que esta é a versão artística dos mapas, e NÃO estão em escala real!
                 </p>
+
+                <a href="https://drive.google.com/drive/folders/1hDFYTrn_hY52k-gh-hf-3UlV2F47vl6w" target="_blank">
+                    <Card style={{ width: '12rem', height: '18rem' }} className={styles.books}>
+                        <Card.Img variant="top" src="/maps.jpg" />
+                        <Card.Body>
+                            <Card.Title style={{ color: 'black' }}>Mapas</Card.Title>
+                        </Card.Body>
+                    </Card>
+                </a>
             </main>
             
         </div>
