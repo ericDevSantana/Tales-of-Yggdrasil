@@ -98,6 +98,11 @@
   text-align: center;
 }
 
+.element {
+  width: 250px;
+  height: 250px;
+}
+
 .card:hover,
 .card:focus,
 .card:active {
