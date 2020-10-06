@@ -4,7 +4,6 @@ import { getAllElementsIds, getText} from '../../lib/elements'
 
 export default function Element(pageProps) {
 
-    // const url = window.location.href.split('/');
     const element = pageProps.data.elem;
     console.log(pageProps.data)
 
@@ -20,6 +19,7 @@ export default function Element(pageProps) {
     )
 }
 
+// List of all paths...Fallback = false -- > 404 if doesn't exist
 export async function getStaticPaths() {
     const paths = getAllElementsIds()
     return {
@@ -28,6 +28,7 @@ export async function getStaticPaths() {
     }
 }
 
+// pre render at build time
 export async function getStaticProps({ params }) {
     const data = await getText(params.elem);
 
