@@ -16,7 +16,7 @@ export default function Elements() {
                     
                     <Link href="/elements/[elem]" as={`/elements/Agua`}>
                         <a>
-                            <Card bg="primary" style={{ width: '14rem' }} className={styles.card}>
+                            <Card bg="primary" style={{ width: '14rem', borderWidth: '10px' }} className={styles.card}>
                                 <Card.Img variant="top" src="/Agua.png" />
                                 <Card.Body style={{ color: 'black' }}>
                                     <Card.Title style={{ fontSize: '2rem' }}>Água</Card.Title>
@@ -27,7 +27,7 @@ export default function Elements() {
 
                     <Link href="/elements/[elem]" as={`/elements/Fogo`}>
                         <a>
-                            <Card bg="danger" style={{ width: '14rem' }} className={styles.card}>
+                            <Card bg="danger" style={{ width: '14rem', borderWidth: '10px' }} className={styles.card}>
                                 <Card.Img variant="top" src="/Fogo.png"/>
                                 <Card.Body style={{ color: 'black' }}>
                                     <Card.Title style={{ fontSize: '2rem' }}>Fogo</Card.Title>
@@ -38,7 +38,7 @@ export default function Elements() {
 
                     <Link href="/elements/[elem]" as={`/elements/Gelo`}>
                         <a>
-                            <Card bg="info" style={{ width: '14rem' }} className={styles.card}>
+                            <Card bg="info" style={{ width: '14rem', borderWidth: '10px' }} className={styles.card}>
                                 <Card.Img variant="top" src="/Gelo.png" />
                                 <Card.Body style={{ color: 'black' }}>
                                     <Card.Title style={{ fontSize: '2rem' }}>Gelo</Card.Title>
@@ -49,7 +49,7 @@ export default function Elements() {
 
                     <Link href="/elements/[elem]" as={`/elements/Metal`}>
                         <a>
-                            <Card bg="secondary" style={{ width: '14rem' }} className={styles.card}>
+                            <Card style={{ width: '14rem', backgroundColor: 'silver', borderWidth: '10px' }} className={styles.card}>
                                 <Card.Img variant="top" src="/Metal.png" />
                                 <Card.Body style={{ color: 'black' }}>
                                     <Card.Title style={{ fontSize: '2rem' }}>Metal</Card.Title>
@@ -60,9 +60,9 @@ export default function Elements() {
 
                     <Link href="/elements/[elem]" as={`/elements/Negro`}>
                         <a>
-                            <Card bg="dark" style={{ width: '14rem' }} className={styles.card}>
+                            <Card bg="secondary" style={{ width: '14rem', borderWidth: '10px' }} className={styles.card}>
                                 <Card.Img variant="top" src="/Negro.png" />
-                                <Card.Body style={{ color: 'white' }}>
+                                <Card.Body style={{ color: 'black' }}>
                                     <Card.Title style={{ fontSize: '2rem' }}>Negro</Card.Title>
                                 </Card.Body>
                             </Card>
@@ -71,7 +71,7 @@ export default function Elements() {
 
                     <Link href="/elements/[elem]" as={`/elements/Vento`}>
                         <a>
-                            <Card bg="success" style={{ width: '14rem' }} className={styles.card}>
+                            <Card bg="success" style={{ width: '14rem', borderWidth: '10px' }} className={styles.card}>
                                 <Card.Img variant="top" src="/Vento.png" />
                                 <Card.Body style={{ color: 'black' }}>
                                     <Card.Title style={{ fontSize: '2rem' }}>Vento</Card.Title>
@@ -82,7 +82,7 @@ export default function Elements() {
 
                     <Link href="/elements/[elem]" as={`/elements/Trevas`}>
                         <a>
-                            <Card style={{ width: '14rem', backgroundColor: 'purple'  }} className={styles.card}>
+                            <Card style={{ width: '14rem', backgroundColor: 'purple', borderWidth: '10px' }} className={styles.card}>
                                 <Card.Img variant="top" src="/Trevas.png" />
                                 <Card.Body style={{ color: 'black' }}>
                                     <Card.Title style={{ fontSize: '2rem' }}>Trevas</Card.Title>
