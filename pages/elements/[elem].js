@@ -1,11 +1,9 @@
 import Head from 'next/head';
 import styles from '../../styles/Home.module.css';
-import { getAllElementsIds, getText} from '../../lib/elements'
+import { getAllElements, getElement } from '../../lib/elements'
 
 export default function Element(pageProps) {
-
     const element = pageProps.data.elem;
-    console.log(pageProps.data)
 
     return (
         <div className={styles.main}>
@@ -21,7 +19,7 @@ export default function Element(pageProps) {
 
 // List of all paths...Fallback = false -- > 404 if doesn't exist
 export async function getStaticPaths() {
-    const paths = getAllElementsIds()
+    const paths = getAllElements()
     return {
         paths,
         fallback: false
@@ -30,7 +28,7 @@ export async function getStaticPaths() {
 
 // pre render at build time
 export async function getStaticProps({ params }) {
-    const data = await getText(params.elem);
+    const data = await getElement(params.elem);
 
     return {
         props: {

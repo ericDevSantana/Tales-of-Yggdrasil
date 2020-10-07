@@ -29,7 +29,7 @@ export default function Elements() {
                         <a>
                             <Card bg="danger" style={{ width: '14rem' }} className={styles.card}>
                                 <Card.Img variant="top" src="/Fogo.png"/>
-                                <Card.Body>
+                                <Card.Body style={{ color: 'black' }}>
                                     <Card.Title style={{ fontSize: '2rem' }}>Fogo</Card.Title>
                                 </Card.Body>
                             </Card>
@@ -40,7 +40,7 @@ export default function Elements() {
                         <a>
                             <Card bg="info" style={{ width: '14rem' }} className={styles.card}>
                                 <Card.Img variant="top" src="/Gelo.png" />
-                                <Card.Body>
+                                <Card.Body style={{ color: 'black' }}>
                                     <Card.Title style={{ fontSize: '2rem' }}>Gelo</Card.Title>
                                 </Card.Body>
                             </Card>
@@ -51,7 +51,7 @@ export default function Elements() {
                         <a>
                             <Card bg="secondary" style={{ width: '14rem' }} className={styles.card}>
                                 <Card.Img variant="top" src="/Metal.png" />
-                                <Card.Body>
+                                <Card.Body style={{ color: 'black' }}>
                                     <Card.Title style={{ fontSize: '2rem' }}>Metal</Card.Title>
                                 </Card.Body>
                             </Card>
@@ -73,7 +73,7 @@ export default function Elements() {
                         <a>
                             <Card bg="success" style={{ width: '14rem' }} className={styles.card}>
                                 <Card.Img variant="top" src="/Vento.png" />
-                                <Card.Body>
+                                <Card.Body style={{ color: 'black' }}>
                                     <Card.Title style={{ fontSize: '2rem' }}>Vento</Card.Title>
                                 </Card.Body>
                             </Card>
@@ -84,7 +84,7 @@ export default function Elements() {
                         <a>
                             <Card style={{ width: '14rem', backgroundColor: 'purple'  }} className={styles.card}>
                                 <Card.Img variant="top" src="/Trevas.png" />
-                                <Card.Body>
+                                <Card.Body style={{ color: 'black' }}>
                                     <Card.Title style={{ fontSize: '2rem' }}>Trevas</Card.Title>
                                 </Card.Body>
                             </Card>
