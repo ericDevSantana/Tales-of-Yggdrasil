@@ -4,25 +4,30 @@ import { getAllElements, getElement } from '../../lib/elements'
 
 export default function Element(pageProps) {
     const element = pageProps.data.elem;
-    const elementClass = "styles.Agua"
 
     return (
-        <div className={
-            element == "Agua" ? styles.Agua :
-                element == "Fogo" ? styles.Fogo : 
-                    element == "Metal" ? styles.Metal :
-                        element == "Vento" ? styles.Vento :
-                            element == "Trevas" ? styles.Trevas :
-                                element == "Negro" ? styles.Negro : styles.Gelo
-        }>
-            <div className={styles.main}>
-            <Head>
-                <title>{element}</title>
-                <link rel="icon" href="/favicon.ico" />
-            </Head>
-            <img className={styles.element} src={'/'+`${element}`+'.png'}/>
-            <p>{pageProps.data.description}</p>
+        <div className={styles.Agua}>
+        
+            <div className={
+                element == "Agua" ? styles.Agua :
+                    element == "Fogo" ? styles.Fogo :
+                        element == "Metal" ? styles.Metal :
+                            element == "Vento" ? styles.Vento :
+                                element == "Trevas" ? styles.Trevas :
+                                    element == "Negro" ? styles.Negro : styles.Gelo}>
+                Something
             </div>
+            
+            <div className={styles.main}>
+                <Head>
+                    <title>{element}</title>
+                    <link rel="icon" href="/favicon.ico" />
+                </Head>
+
+                <img className={styles.element} src={'/' + `${element}` + '.png'} />
+                <p>{pageProps.data.description}</p>
+            </div>
+
         </div>
     )
 }
