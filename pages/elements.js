@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
-import { Card } from 'react-bootstrap'
+import { Button, Card } from 'react-bootstrap'
 
 export default function Elements() {
     return (
@@ -26,14 +26,15 @@ export default function Elements() {
                     </Link>
 
                     <Link href="/elements/[elem]" as={`/elements/Fogo`}>
-                        <a>
-                            <Card bg="danger" style={{ width: '14rem', borderWidth: '10px' }} className={styles.card}>
-                                <Card.Img variant="top" src="/Fogo.png"/>
-                                <Card.Body style={{ color: 'black' }}>
-                                    <Card.Title style={{ fontSize: '2rem' }}>Fogo</Card.Title>
-                                </Card.Body>
-                            </Card>
-                        </a>
+                        {/* <Card bg="danger" style={{ width: '14rem', borderWidth: '10px' }} className={styles.card}>
+                            <Card.Img variant="top" src="/Fogo.png" />
+                            <Card.Body style={{ color: 'black' }}>
+                                <Card.Title style={{ fontSize: '2rem' }}>Fogo</Card.Title>
+                            </Card.Body>
+                        </Card> */}
+                        <div>
+                        <img style={{ height: '250px', width: '250px' }} src={'/Fogo.png'} />
+                        </div>
                     </Link>
 
                     <Link href="/elements/[elem]" as={`/elements/Gelo`}>

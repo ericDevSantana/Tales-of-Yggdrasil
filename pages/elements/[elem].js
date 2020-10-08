@@ -6,15 +6,15 @@ export default function Element(pageProps) {
     const element = pageProps.data.elem;
 
     return (
-        <div className={styles.Agua}>
-        
-            <div className={
-                element == "Agua" ? styles.Agua :
-                    element == "Fogo" ? styles.Fogo :
-                        element == "Metal" ? styles.Metal :
-                            element == "Vento" ? styles.Vento :
-                                element == "Trevas" ? styles.Trevas :
-                                    element == "Negro" ? styles.Negro : styles.Gelo}>
+        <div className={
+            element == "Agua" ? styles.Agua :
+                element == "Fogo" ? styles.Fogo :
+                    element == "Metal" ? styles.Metal :
+                        element == "Vento" ? styles.Vento :
+                            element == "Trevas" ? styles.Trevas :
+                                element == "Negro" ? styles.Negro : styles.Gelo}>
+            
+            <div className={styles.elementDescription}>
                 Something
             </div>
             
@@ -23,6 +23,8 @@ export default function Element(pageProps) {
                     <title>{element}</title>
                     <link rel="icon" href="/favicon.ico" />
                 </Head>
+
+                <h1 style={{fontSize: '5rem', padding: '2% 0'}}>{element}</h1>
 
                 <img className={styles.element} src={'/' + `${element}` + '.png'} />
                 <p>{pageProps.data.description}</p>
