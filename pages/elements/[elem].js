@@ -6,6 +6,7 @@ export default function Element(pageProps) {
     const element = pageProps.data.elem;
 
     return (
+        // This will display the proper style for each element
         <div className={
             element == "Agua" ? styles.Agua :
                 element == "Fogo" ? styles.Fogo :
@@ -14,11 +15,11 @@ export default function Element(pageProps) {
                             element == "Trevas" ? styles.Trevas :
                                 element == "Negro" ? styles.Negro : styles.Gelo}>
             
-            <div className={styles.elementDescription}>
-                Something
-            </div>
+            {/* White background for description of each element */}
+            <div className={styles.elementDescription}></div>
             
             <div className={styles.main}>
+                
                 <Head>
                     <title>{element}</title>
                     <link rel="icon" href="/favicon.ico" />

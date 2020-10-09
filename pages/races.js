@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import {Card, Button} from 'react-bootstrap'
+import { Card, Button } from 'react-bootstrap'
+import Link from 'next/link'
 
 export default function Races() {
     return (
@@ -12,45 +13,49 @@ export default function Races() {
 
             <main className={styles.main} style={{ padding: '1% 5%' }}>
                 <div className={styles.grid}>
-                    <a>
-                        <Card style={{ width: '20rem' }} className={styles.card}>
-                            <Card.Img variant="top" src="/kina_avatar.jpg" />
+                    <Link href="/races/[race]" as={`/races/Aasgardianos`}>
+                        <img className={styles.racesFlags} src="/Aasgardian.png"/>
+                        {/* <Card style={{ width: '20rem' }} className={styles.card}>
+                            <Card.Img variant="top" src="/Aasgardian.png" />
                             <Card.Body>
                                 <Card.Title>Aasgardianos</Card.Title>
                             </Card.Body>
-                        </Card>
-                    </a>
+                        </Card> */}
+                    </Link>
 
-                    <Card style={{ width: '20rem' }} className={styles.card}>
-                        <Card.Img variant="top" src="/mage_avatar.jpg" />
+                    <Link href="/races/[race]" as={`/races/Atlantes`}>
+                    <img className={styles.racesFlags} src="/Atlantean.png"/>
+                    {/* <Card style={{ width: '20rem' }} className={styles.card}>
+                        <Card.Img variant="top" src="/Atlantean.png" />
                         <Card.Body>
                             <Card.Title>Atlantes</Card.Title>
                         </Card.Body>
-                    </Card>
+                    </Card> */}
+                    </Link>
 
                     <Card style={{ width: '20rem' }} className={styles.card}>
-                        <Card.Img variant="top" src="/paly_avatar.jpg" />
+                        <Card.Img variant="top" src="/Methalier.png" />
                         <Card.Body>
                             <Card.Title>Methaliers</Card.Title>
                         </Card.Body>
                     </Card>
 
                     <Card style={{ width: '20rem' }} className={styles.card}>
-                        <Card.Img variant="top" src="/druid_avatar.jpg" />
+                        <Card.Img variant="top" src="/Olympian.png" />
                         <Card.Body>
                             <Card.Title>Olympianos</Card.Title>
                         </Card.Body>
                     </Card>
 
                     <Card style={{ width: '20rem' }} className={styles.card}>
-                        <Card.Img variant="top" src="/druid_avatar.jpg" />
+                        <Card.Img variant="top" src="/Phantons.png" />
                         <Card.Body>
                             <Card.Title>Phantons</Card.Title>
                         </Card.Body>
                     </Card>
 
                     <Card style={{ width: '20rem' }} className={styles.card}>
-                        <Card.Img variant="top" src="/druid_avatar.jpg" />
+                        <Card.Img variant="top" src="/Teran.png" />
                         <Card.Body>
                             <Card.Title>Teranos</Card.Title>
                         </Card.Body>

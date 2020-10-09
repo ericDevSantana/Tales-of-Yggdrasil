@@ -26,14 +26,8 @@ export default function Elements() {
                     </Link>
 
                     <Link href="/elements/[elem]" as={`/elements/Fogo`}>
-                        {/* <Card bg="danger" style={{ width: '14rem', borderWidth: '10px' }} className={styles.card}>
-                            <Card.Img variant="top" src="/Fogo.png" />
-                            <Card.Body style={{ color: 'black' }}>
-                                <Card.Title style={{ fontSize: '2rem' }}>Fogo</Card.Title>
-                            </Card.Body>
-                        </Card> */}
-                        <div>
-                        <img style={{ height: '250px', width: '250px' }} src={'/Fogo.png'} />
+                        <div className={styles.card}>
+                            <img style={{ height: '250px', width: '250px' }} src={'/Fogo.png'} />
                         </div>
                     </Link>
 
