@@ -12,33 +12,20 @@ export default function Races() {
             </Head>
 
             <main className={styles.main} style={{ padding: '1% 5%' }}>
+                
                 <div className={styles.grid}>
+                    
                     <Link href="/races/[race]" as={`/races/Aasgardianos`}>
                         <img className={styles.racesFlags} src="/Aasgardian.png"/>
-                        {/* <Card style={{ width: '20rem' }} className={styles.card}>
-                            <Card.Img variant="top" src="/Aasgardian.png" />
-                            <Card.Body>
-                                <Card.Title>Aasgardianos</Card.Title>
-                            </Card.Body>
-                        </Card> */}
                     </Link>
 
                     <Link href="/races/[race]" as={`/races/Atlantes`}>
-                    <img className={styles.racesFlags} src="/Atlantean.png"/>
-                    {/* <Card style={{ width: '20rem' }} className={styles.card}>
-                        <Card.Img variant="top" src="/Atlantean.png" />
-                        <Card.Body>
-                            <Card.Title>Atlantes</Card.Title>
-                        </Card.Body>
-                    </Card> */}
+                        <img className={styles.racesFlags} src="/Atlantean.png"/>
                     </Link>
 
-                    <Card style={{ width: '20rem' }} className={styles.card}>
-                        <Card.Img variant="top" src="/Methalier.png" />
-                        <Card.Body>
-                            <Card.Title>Methaliers</Card.Title>
-                        </Card.Body>
-                    </Card>
+                    <Link href="/races/[race]" as={`/races/Methaliers`}>
+                        <img className={styles.racesFlags} src="/Methalier.png"/>
+                    </Link>
 
                     <Card style={{ width: '20rem' }} className={styles.card}>
                         <Card.Img variant="top" src="/Olympian.png" />

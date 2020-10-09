@@ -9,11 +9,11 @@ export default function Race(pageProps) {
         // This will display the proper style for each element
         <div className={
             race == "Aasgardianos" ? styles.Agua :
-                race == "Fogo" ? styles.Fogo :
-                    race == "Metal" ? styles.Metal :
-                        race == "Vento" ? styles.Vento :
-                            race == "Trevas" ? styles.Trevas :
-                                race == "Negro" ? styles.Negro : styles.Gelo}>
+                race == "Atlantes" ? styles.Fogo :
+                    race == "Methaliers" ? styles.Metal :
+                        race == "Olympianos" ? styles.Vento :
+                            race == "Phantons" ? styles.Trevas :
+                                race == "Teranos" ? styles.Negro : styles.Gelo}>
             
             {/* White background for description of each element */}
             <div className={styles.elementDescription}></div>
