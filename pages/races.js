@@ -27,26 +27,17 @@ export default function Races() {
                         <img className={styles.racesFlags} src="/Methalier.png"/>
                     </Link>
 
-                    <Card style={{ width: '20rem' }} className={styles.card}>
-                        <Card.Img variant="top" src="/Olympian.png" />
-                        <Card.Body>
-                            <Card.Title>Olympianos</Card.Title>
-                        </Card.Body>
-                    </Card>
+                    <Link href="/races/[race]" as={`/races/Olympianos`}>
+                        <img className={styles.racesFlags} src="/Olympian.png"/>
+                    </Link>
 
-                    <Card style={{ width: '20rem' }} className={styles.card}>
-                        <Card.Img variant="top" src="/Phantons.png" />
-                        <Card.Body>
-                            <Card.Title>Phantons</Card.Title>
-                        </Card.Body>
-                    </Card>
+                    <Link href="/races/[race]" as={`/races/Phantons`}>
+                        <img className={styles.racesFlags} src="/Phantons.png"/>
+                    </Link>
 
-                    <Card style={{ width: '20rem' }} className={styles.card}>
-                        <Card.Img variant="top" src="/Teran.png" />
-                        <Card.Body>
-                            <Card.Title>Teranos</Card.Title>
-                        </Card.Body>
-                    </Card>
+                    <Link href="/races/[race]" as={`/races/Teranos`}>
+                        <img className={styles.racesFlags} src="/Teran.png"/>
+                    </Link>
 
                 </div>
             </main>
