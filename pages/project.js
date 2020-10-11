@@ -5,7 +5,7 @@ export default function Project() {
     return (
         <div>
             <Head>
-                <title>The Project</title>
+                <title>O Projeto</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <main className={styles.main}>

@@ -6,15 +6,28 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 export default function Footer() {
     return (
         <footer className={styles.footer}>
+            
             <div className={styles.grid, styles.icon}>
                 
-                <FacebookIcon fontSize="small" />
+                <a style={{color: 'blue'}} href="https://www.facebook.com/toyrpg" target="_blank">
+                    <FacebookIcon fontSize="small" />
+                </a>
+                
                 &nbsp;&nbsp;
-                <InstagramIcon fontSize="small" />
-            
+
+                <a style={{color: 'purple'}} href="https://www.instagram.com/tales_of_yggdrasil/" target="_blank">
+                    <InstagramIcon fontSize="small" />
+                </a>            
             </div>
+
             <div>
                 <CopyrightIcon fontSize="small" /> &nbsp; Copyright 2020. Todos os direitos Reservados.
+            </div>
+            <div>
+                Desenvolvido por &nbsp;
+                <a href="https://www.linkedin.com/in/eric-santana-14438032/" target="_blank">
+                    Eric
+                </a>
             </div>
             
         </footer>
