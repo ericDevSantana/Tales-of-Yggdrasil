@@ -23,13 +23,7 @@ export default function Footer() {
             <div>
                 <CopyrightIcon fontSize="small" /> &nbsp; Copyright 2020. Todos os direitos Reservados.
             </div>
-            <div>
-                Desenvolvido por &nbsp;
-                <a href="https://www.linkedin.com/in/eric-santana-14438032/" target="_blank">
-                    Eric
-                </a>
-            </div>
-            
+                        
         </footer>
     )
 }

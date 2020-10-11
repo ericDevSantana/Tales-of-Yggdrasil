@@ -22,15 +22,38 @@ export default function Project() {
                 </p>
                 
                 <h1>Colaboladores</h1>
-                <h2>Logo</h2>
-                <p>
-                    <a href="https://www.instagram.com/pedro_s_dutra/" target="_blank" >Pedro Dutra</a>
-                </p>
-                <h2>Artes</h2>
-                <p>
-                    <a href="https://www.artstation.com/ya_wara" target="_blank" >Camila Teixeira Frauzino</a>
-                </p>
             </main>
+
+            <div className={styles.colab}>
+                <ul className={styles.colabList}>
+                    <li>
+                        <h2>Logo</h2>
+                        <p>
+                        <a href="https://www.instagram.com/pedro_s_dutra/" target="_blank" >Pedro Dutra</a>
+                        </p>
+                    </li>
+
+                    <li>
+                        <h2>Artes</h2>
+                        <p>
+                            <a href="https://www.artstation.com/ya_wara" target="_blank" >Camila Teixeira Frauzino</a><br/>
+                            <a href="https://www.linkedin.com/in/eric-santana-14438032/" target="_blank" >Jean Vitor</a>
+                        </p>
+                    </li>
+                </ul>
+
+                <ul className={styles.colabList}>
+                    <li>
+                        <h2>Website</h2>
+                        <p>
+                        <a href="https://www.linkedin.com/in/eric-santana-14438032/" target="_blank" >Eric Santana</a>
+                        </p>
+                    </li>
+
+                </ul>
+            </div>
+
+            
 
         </div>
     )
