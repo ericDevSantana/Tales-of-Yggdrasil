@@ -100,14 +100,24 @@
 
 .footer {
   width: 100%;
-  height: 50px;
+  height: 75px;
   z-index: 4;
+  margin: 0 auto 0 auto;
   position: relative;
   background-color: white;
+  display: block;
   border-top: 1px solid #eaeaea;
-  display: flex;
+  text-align: center;
   justify-content: center;
   align-items: center;
+}
+
+.footer > .icon {
+  margin: 7px 0 4px 0;
+}
+
+.footer > .socialIcon {
+  margin: 0 5px 0 5px;
 }
 
 .footer img {
