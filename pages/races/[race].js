@@ -31,6 +31,7 @@ export default function Race(pageProps) {
                     <img className={styles.racesImages} style={{ float: 'right' }} src={'/' + `${race}` + '_male.png'} />
                 </div>
 
+                {/* Need to break text into paragraphs and then display then on a list */}
                 <p>{pageProps.data.description}</p>
             </div>
 
