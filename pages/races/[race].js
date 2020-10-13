@@ -27,8 +27,11 @@ export default function Race(pageProps) {
 
                 <h1 style={{fontSize: '5rem', padding: '2% 0'}}>{race}</h1>
                 <div className={styles.grid}>
-                    <img className={styles.racesImages} style={{float: 'left'}} src={'/' + `${race}` + '_female.png'} />
-                    <img className={styles.racesImages} style={{ float: 'right' }} src={'/' + `${race}` + '_male.png'} />
+                    <div className={styles.racesImages}>
+                        <img  style={{float: 'left'}} src={'/' + `${race}` + '_female.png'} />
+                        <img style={{float: 'right'}} src={'/' + `${race}` + '_male.png'} />
+                    </div>
+                    
                 </div>
 
                 {/* Need to break text into paragraphs and then display then on a list */}

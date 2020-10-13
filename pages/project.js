@@ -34,9 +34,15 @@ export default function Project() {
                     </li>
 
                     <li>
-                        <h2>Artes</h2>
+                        <h2>Arte Raças</h2>
                         <p>
                             <a href="https://www.artstation.com/ya_wara" target="_blank" >Camila Teixeira Frauzino</a><br/>
+                        </p>
+                    </li>
+
+                    <li>
+                        <h2>Arte Elementos</h2>
+                        <p>
                             <a href="https://www.linkedin.com/in/eric-santana-14438032/" target="_blank" >Jean Vitor</a>
                         </p>
                     </li>
@@ -50,10 +56,16 @@ export default function Project() {
                         </p>
                     </li>
 
-                </ul>
-            </div>
+                    <li>
+                        <h2>Arte Livros</h2>
+                        <p>
+                        <a href="https://www.flaticon.com/authors/freepik" target="_blank" >Freepik</a>
+                        </p>
+                    </li>
 
-            
+                </ul>
+
+            </div>          
 
         </div>
     )

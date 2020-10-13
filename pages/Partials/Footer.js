@@ -17,7 +17,14 @@ export default function Footer() {
 
                 <a style={{color: 'purple'}} href="https://www.instagram.com/tales_of_yggdrasil/" target="_blank">
                     <InstagramIcon fontSize="small" />
-                </a>            
+                </a>    
+                
+                &nbsp;&nbsp;
+
+                <a href="https://tapas.io/series/O-mundo-de-Tales-of-Yggdrasil/info" target="_blank">
+                    <img style={{width: '25px', height: '25px'}} src="tapas.svg" alt="Tapas icon"></img>
+                </a> 
+
             </div>
 
             <div>

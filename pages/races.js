@@ -16,27 +16,39 @@ export default function Races() {
                 <div className={styles.grid}>
                     
                     <Link href="/races/[race]" as={`/races/Aasgardianos`}>
-                        <img className={styles.racesFlags} src="/Aasgardian.png"/>
+                        <div className={styles.racesFlags}>
+                            <img src="/Aasgardian.png"/>
+                        </div>
                     </Link>
 
                     <Link href="/races/[race]" as={`/races/Atlantes`}>
-                        <img className={styles.racesFlags} src="/Atlantean.png"/>
+                        <div className={styles.racesFlags}>
+                            <img src="/Atlantean.png"/>
+                        </div>
                     </Link>
 
                     <Link href="/races/[race]" as={`/races/Methaliers`}>
-                        <img className={styles.racesFlags} src="/Methalier.png"/>
+                        <div className={styles.racesFlags}>
+                            <img src="/Methalier.png"/>
+                        </div>
                     </Link>
 
                     <Link href="/races/[race]" as={`/races/Olympianos`}>
-                        <img className={styles.racesFlags} src="/Olympian.png"/>
+                        <div className={styles.racesFlags}>
+                            <img src="/Olympian.png"/>
+                        </div>
                     </Link>
 
                     <Link href="/races/[race]" as={`/races/Phantons`}>
-                        <img className={styles.racesFlags} src="/Phantons.png"/>
+                        <div className={styles.racesFlags}>
+                            <img src="/Phantons.png"/>
+                        </div>
                     </Link>
 
                     <Link href="/races/[race]" as={`/races/Teranos`}>
-                        <img className={styles.racesFlags} src="/Teran.png"/>
+                        <div className={styles.racesFlags}>
+                            <img src="/Teran.png"/>
+                        </div>
                     </Link>
 
                 </div>

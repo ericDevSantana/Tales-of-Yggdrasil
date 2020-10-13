@@ -25,7 +25,7 @@ export default function Element(pageProps) {
                     <link rel="icon" href="/favicon.ico" />
                 </Head>
 
-                <h1 style={{fontSize: '5rem', padding: '2% 0'}}>{element}</h1>
+                <h1 style={{fontSize: '5vw', padding: '2% 0'}}>{element}</h1>
 
                 <img className={styles.element} src={'/' + `${element}` + '.png'} />
                 <p>{pageProps.data.description}</p>
