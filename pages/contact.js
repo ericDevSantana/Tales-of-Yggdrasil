@@ -20,7 +20,8 @@ export default function Contacts() {
     }
 
     function handleSubmit(event) {
-        window.open('mailto:yabu.games@outlook.com?subject=subject&body='+ contactMessage.message);
+        // window.open('mailto:yabu.games@outlook.com?subject=subject&body=' + contactMessage.message);
+        window.open("https://mail.google.com/mail/?view=cm&fs=1&tf=1&su=Something&to=someone@gmail.com&body=Hello");
     }
 
     return (
@@ -36,6 +37,9 @@ export default function Contacts() {
                     <Form.Group controlId="exampleForm.ControlInput1">
                         <Form.Label>E-mail:</Form.Label>
                         <Form.Control type="email" pattern="[a-z0-9]+[@][a-z]+[.][a-z]+" value={contactMessage.email} onChange={handleChanges} name="email" required/>
+                        <Form.Label>Assunto</Form.Label>
+                        <Form.Control style={{ resize: 'none' }} as="textarea" rows="1" value={contactMessage.subject} onChange={handleChanges} name="subject" required />
+                        
                     </Form.Group>
 
                     <Form.Group controlId="exampleForm.ControlTextarea1">
