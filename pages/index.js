@@ -18,7 +18,7 @@ export default function Home() {
       </main>
 
       <div style={{ backgroundColor: 'white', fontSize: '1.15rem', textAlign: 'justify', padding: '2% 15%', opacity: '100%' }}>
-        {/* <img src="/mage_avatar.jpg" style={{ width: '150px', height: '150px', borderRadius: '50%', marginLeft: 'auto', marginRight: 'auto', display: 'block', marginTop: '10px', marginBottom: '30px'}} /> */}
+        
         <p>
             Tales of Yggdrasil é um RPG de mesa ainda em desenvolvimento, mas seu early access 
             (acesso antecipado) já está disponível para ser jogado. O Livro do Jogador e Livro do Mestre podem ser adquiridos através deste site.
@@ -27,9 +27,7 @@ export default function Home() {
             antecipado receberá as atualizações de ambos os livros gratuitamente.
           </p>
 
-        <p>
-          <h3>Explore um pouco deste mundo incrível através deste site!</h3>
-        </p>
+        <h2 style={{textAlign: 'center'}}>Explore um pouco deste mundo incrível através deste site!</h2>
 
       </div>
       
