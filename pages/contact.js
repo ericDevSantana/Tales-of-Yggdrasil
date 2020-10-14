@@ -4,7 +4,7 @@ import {Form, Button} from 'react-bootstrap'
 
 export default function Contacts() {
     const [contactMessage, setMessage] = React.useState({
-        email: "",
+        subject: "",
         message: ""
     });
 
@@ -21,7 +21,7 @@ export default function Contacts() {
 
     function handleSubmit(event) {
         // window.open('mailto:yabu.games@outlook.com?subject=subject&body=' + contactMessage.message);
-        window.open("https://mail.google.com/mail/?view=cm&fs=1&tf=1&su=Something&to=someone@gmail.com&body=Hello");
+        window.open("https://mail.google.com/mail/?view=cm&fs=1&tf=1&su="+contactMessage.subject+"&to=yabu.games@outlook.com&body="+contactMessage.message);
     }
 
     return (
@@ -35,8 +35,8 @@ export default function Contacts() {
                 <h1>Entre em contato</h1>
                 <Form style={{ width: '100%', height: '100%' }}>
                     <Form.Group controlId="exampleForm.ControlInput1">
-                        <Form.Label>E-mail:</Form.Label>
-                        <Form.Control type="email" pattern="[a-z0-9]+[@][a-z]+[.][a-z]+" value={contactMessage.email} onChange={handleChanges} name="email" required/>
+                        {/* <Form.Label>E-mail:</Form.Label>
+                        <Form.Control type="email" pattern="[a-z0-9]+[@][a-z]+[.][a-z]+" value={contactMessage.email} onChange={handleChanges} name="email" required/> */}
                         <Form.Label>Assunto</Form.Label>
                         <Form.Control style={{ resize: 'none' }} as="textarea" rows="1" value={contactMessage.subject} onChange={handleChanges} name="subject" required />
                         
