@@ -12,7 +12,7 @@ export default function Elements() {
             </Head>
 
             <main className={styles.main} style={{ padding: '1% 5%' }}>
-                {/* <h1 style={{fontSize: '5rem'}}>Elementos</h1> */}
+                <h1>Os Elementos</h1>
                 <div className={styles.grid}>
                     
                     <Link href="/elements/[elem]" as={`/elements/Fogo`}>

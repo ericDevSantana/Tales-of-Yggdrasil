@@ -1,15 +1,6 @@
-.container {
-  min-height: 100vh;
-  padding: 0 0.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .main {
   padding: 1% 18%;
-  min-height: 100vh;
+  min-height: 80vh;
   text-align: justify;
   font-size: 1.5rem;
   flex: 1;
@@ -41,7 +32,13 @@
 }
 
 .world {
-  background-image: url("../public/old.jpg");
+  background-image: url("../public/world.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.rpg {
+  background-image: url("../public/rpg_dice.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -50,7 +47,12 @@
   background-image: url("../public/home.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  font-weight: 600;
+}
+
+.lib {
+  background-image: url("../public/library.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .Agua {
@@ -109,7 +111,7 @@
   width: 70%;
   z-index: 1;
   position: fixed;
-  transition: 1s;
+  transition: 0.2s;
 }
 
 .colab {
@@ -162,28 +164,6 @@
   text-decoration: none;
 }
 
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-}
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-}
-
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
-}
-
-.title,
-.description {
-  text-align: center;
-}
-
 .description {
   line-height: 1.5;
   font-size: 1.5rem;
@@ -206,11 +186,22 @@
 .card img {
   height: 250px;
   width: 250px;
+  transition: .2s;
+}
+
+.card > img:hover{
+  transform: scale(1.25,1.25);
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  cursor: pointer;
 }
 
 .element {
-  width: 80%;
-  height: 80%;
+  width: 50%;
+  height: 50%;
 }
 
 .racesImages {
@@ -229,14 +220,12 @@
   width: 300px;
   height: 300px;
   border-radius: 10%;
+  transition: .2s;
 }
 
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+.racesFlags:hover img {
   cursor: pointer;
+  transform: scale(1.25,1.25);
 }
 
 .books {
@@ -254,17 +243,18 @@
 }
 
 .logo {
-  height: 500px;
-  width: 1000px;
-}
-
-@media (max-width: 900px) {
-  
+  height: 100%;
+  width: 100%;
 }
 
 @media (max-width: 600px) {
+
+  .main h1 {
+    font-size: 10vw;
+  }
+
   .grid {
-    width: 100%;
+    width: 90%;
     flex-direction: column;
   }
 

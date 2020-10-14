@@ -12,7 +12,7 @@ export default function Races() {
             </Head>
 
             <main className={styles.main} style={{ padding: '1% 5%' }}>
-                
+                <h1>As Raças</h1>
                 <div className={styles.grid}>
                     
                     <Link href="/races/[race]" as={`/races/Aasgardianos`}>
