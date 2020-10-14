@@ -21,7 +21,10 @@ export default function Contacts() {
 
     function handleSubmit(event) {
         // window.open('mailto:yabu.games@outlook.com?subject=subject&body=' + contactMessage.message);
-        window.open("https://mail.google.com/mail/?view=cm&fs=1&tf=1&su="+contactMessage.subject+"&to=yabu.games@outlook.com&body="+contactMessage.message);
+        if (contactMessage.subject !== "" && contactMessage.message !== "") {
+            window.open("https://mail.google.com/mail/?view=cm&fs=1&tf=1&su=" + contactMessage.subject + "&to=yabu.games@outlook.com&body=" + contactMessage.message);
+    
+        }
     }
 
     return (
