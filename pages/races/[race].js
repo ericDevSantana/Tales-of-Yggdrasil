@@ -3,7 +3,7 @@ import styles from '../../styles/Home.module.css';
 import { getAllRaces, getRace } from '../../lib/races'
 
 export default function Race(pageProps) {
-    const race = pageProps.data.race;
+    var race = pageProps.data.race;
     const paragraphs = pageProps.data.description.split("$");
 
     return (
