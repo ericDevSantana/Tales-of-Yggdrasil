@@ -9,12 +9,12 @@ export default function Race(pageProps) {
     return (
         // This will display the proper style for each element
         <div className={
-            race == "Aasgardianos" ? styles.Agua :
-                race == "Atlantes" ? styles.Fogo :
-                    race == "Methaliers" ? styles.Metal :
-                        race == "Olympianos" ? styles.Fogo :
-                            race == "Phantons" ? styles.Trevas :
-                                race == "Teranos" ? styles.Negro : styles.Gelo}>
+            race == "Aasgardianos" ? styles.aasgardianos :
+                race == "Atlantes" ? styles.atlantes :
+                    race == "Methaliers" ? styles.methaliers :
+                        race == "Olympianos" ? styles.olympianos :
+                            race == "Phantons" ? styles.phantons :
+                                styles.teranos}>
             
             {/* White background for description of each element
             <div className={styles.elementDescription}></div> */}
@@ -26,11 +26,11 @@ export default function Race(pageProps) {
                     <link rel="icon" href="/favicon.ico" />
                 </Head>
 
-                <h1 style={{fontSize: '5rem', padding: '2% 0'}}>{race}</h1>
+                <h1>{race}</h1>
                 <div className={styles.grid} style={{backgroundColor: 'white', borderRadius: '10px', marginBottom: '20px'}}>
                     <div className={styles.racesImages}>
-                        <img style={{float: 'left'}} src={'/' + `${race}` + '_female.png'} />
-                        <img style={{float: 'right'}} src={'/' + `${race}` + '_male.png'} />
+                        <img style={{float: 'left', margin: '0 30px 0 30px'}} src={'/' + `${race}` + '_female.png'} />
+                        <img style={{float: 'right', margin: '0 30px 0 30px'}} src={'/' + `${race}` + '_male.png'} />
                     </div>
                     
                 </div>

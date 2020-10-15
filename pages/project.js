@@ -43,7 +43,7 @@ export default function Project() {
                     <li>
                         <h2>Arte Elementos</h2>
                         <p>
-                            <a href="https://www.linkedin.com/in/eric-santana-14438032/" target="_blank" >Jean Vitor</a>
+                            <a href="https://www.instagram.com/jean_vitorsilva/" target="_blank" >Jean Vitor</a>
                         </p>
                     </li>
                 </ul>

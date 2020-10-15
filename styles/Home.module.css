@@ -43,15 +43,11 @@
 }
 
 .world {
-  background-image: url("../public/world.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url("../public/cubes.png");
 }
 
 .rpg {
-  background-image: url("../public/rpg_dice.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url("../public/cubes.png");
 }
 
 .home {
@@ -103,6 +99,44 @@
 .Negro {
   background-image: url("../public/cubes.png");
   background-color: black;
+  color: whitesmoke;
+}
+
+/* RACAS */
+
+.aasgardianos {
+  background-image: url("../public/cubes.png");
+  background-color: #40a8c4;
+  color: whitesmoke;
+}
+
+.olympianos {
+  background-image: url("../public/cubes.png");
+  background-color: #810000;
+  color: whitesmoke;
+}
+
+.teranos {
+  background-image: url("../public/cubes.png");
+  background-color: #96bb7c;
+  color: whitesmoke;
+}
+
+.methaliers {
+  background-image: url("../public/cubes.png");
+  background-color: #393b44;
+  color: whitesmoke;
+}
+
+.phantons {
+  background-image: url("../public/cubes.png");
+  background-color: #654062;
+  color: whitesmoke;
+}
+
+.atlantes {
+  background-image: url("../public/cubes.png");
+  background-color: #0f4c75;
   color: whitesmoke;
 }
 
@@ -215,6 +249,7 @@
 
 .racesImages {
   margin: 20px;
+  width: 100%;
 }
 
 .racesImages img{

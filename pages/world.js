@@ -11,7 +11,7 @@ export default function World() {
             </Head>
 
             {/* White background for description of each element */}
-            <div className={styles.elementDescription}></div>
+            {/* <div className={styles.elementDescription}></div> */}
             
             <main className={styles.main}>
                 <h1>O Mundo de Yggdrasil</h1>
