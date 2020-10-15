@@ -64,7 +64,7 @@ export default function Project() {
                     </li>
 
                     <li>
-                        <h2>Arte Principal</h2>
+                        <h2>Arte Capa</h2>
                         <p>
                         <a href="https://pixabay.com/users/jcragaru34-6733407/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5176259" target="_blank" >Jean C Ragaru</a>
                         </p>

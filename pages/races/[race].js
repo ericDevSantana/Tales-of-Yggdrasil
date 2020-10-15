@@ -4,6 +4,7 @@ import { getAllRaces, getRace } from '../../lib/races'
 
 export default function Race(pageProps) {
     const race = pageProps.data.race;
+    const paragraphs = pageProps.data.description.split("$");
 
     return (
         // This will display the proper style for each element
@@ -11,12 +12,12 @@ export default function Race(pageProps) {
             race == "Aasgardianos" ? styles.Agua :
                 race == "Atlantes" ? styles.Fogo :
                     race == "Methaliers" ? styles.Metal :
-                        race == "Olympianos" ? styles.Vento :
+                        race == "Olympianos" ? styles.Fogo :
                             race == "Phantons" ? styles.Trevas :
                                 race == "Teranos" ? styles.Negro : styles.Gelo}>
             
-            {/* White background for description of each element */}
-            <div className={styles.elementDescription}></div>
+            {/* White background for description of each element
+            <div className={styles.elementDescription}></div> */}
             
             <div className={styles.main}>
                 
@@ -26,7 +27,7 @@ export default function Race(pageProps) {
                 </Head>
 
                 <h1 style={{fontSize: '5rem', padding: '2% 0'}}>{race}</h1>
-                <div className={styles.grid}>
+                <div className={styles.grid} style={{backgroundColor: 'white', borderRadius: '10px', marginBottom: '20px'}}>
                     <div className={styles.racesImages}>
                         <img  style={{float: 'left'}} src={'/' + `${race}` + '_female.png'} />
                         <img style={{float: 'right'}} src={'/' + `${race}` + '_male.png'} />
@@ -35,7 +36,10 @@ export default function Race(pageProps) {
                 </div>
 
                 {/* Need to break text into paragraphs and then display then on a list */}
-                <p>{pageProps.data.description}</p>
+                {/* <p>{pageProps.data.description}</p> */}
+                {paragraphs.map((paragraph, index) => {
+                    return <p key={index}>{paragraph}</p>
+                })}
             </div>
 
         </div>
