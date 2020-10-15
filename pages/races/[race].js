@@ -29,7 +29,7 @@ export default function Race(pageProps) {
                 <h1 style={{fontSize: '5rem', padding: '2% 0'}}>{race}</h1>
                 <div className={styles.grid} style={{backgroundColor: 'white', borderRadius: '10px', marginBottom: '20px'}}>
                     <div className={styles.racesImages}>
-                        <img  style={{float: 'left'}} src={'/' + `${race}` + '_female.png'} />
+                        <img style={{float: 'left'}} src={'/' + `${race}` + '_female.png'} />
                         <img style={{float: 'right'}} src={'/' + `${race}` + '_male.png'} />
                     </div>
                     
