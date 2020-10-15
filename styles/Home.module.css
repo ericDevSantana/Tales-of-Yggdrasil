@@ -330,6 +330,10 @@
   .colabList h2 {
   font-size: 1.5rem;
   transition: 1s;
-}
+  }
+
+  .main {
+    padding: 1% 2%;
+  }
 
 }
