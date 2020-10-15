@@ -23,7 +23,7 @@ export default function Books() {
                 </p>
 
                 <div className={styles.grid}>
-                    <a>
+                    <a href="https://www.amazon.com.br/dp/B083RCZWM6/ref=sr_1_3?qid=1578789520&refinements=p_27%3ALucas+Yabu&s=digital-text&sr=1-3&text=Lucas+Yabu" target="_blank" >
                         <Card style={{ width: '12rem', height: '18rem' }} className={styles.books}>
                             <Card.Img variant="top" src="/book.png" />
                             <Card.Body>
@@ -32,7 +32,7 @@ export default function Books() {
                         </Card>
                     </a>
 
-                    <a>
+                    <a href="https://www.amazon.com.br/dp/B083RCQDMS/ref=sr_1_2?qid=1578789629&refinements=p_27%3ALucas+Yabu&s=digital-text&sr=1-2&text=Lucas+Yabu" target="_blank" >
                         <Card style={{ width: '12rem', height: '18rem' }} className={styles.books}>
                             <Card.Img variant="top" src="/book.png" />
                             <Card.Body>
@@ -41,7 +41,7 @@ export default function Books() {
                         </Card>
                     </a>
 
-                    <a>
+                    <a href="https://www.amazon.com.br/dp/B083RDHPF1/ref=sr_1_1?qid=1578789645&refinements=p_27%3ALucas+Yabu&s=digital-text&sr=1-1&text=Lucas+Yabu" target="_blank" >
                         <Card style={{ width: '12rem', height: '18rem' }} className={styles.books}>
                             <Card.Img variant="top" src="/book.png" />
                             <Card.Body>
@@ -50,7 +50,7 @@ export default function Books() {
                         </Card>
                     </a>
 
-                    <a>
+                    <a href="https://www.amazon.com.br/dp/B0889N7JDS" target="_blank" >
                         <Card style={{ width: '12rem', height: '18rem' }} className={styles.books}>
                             <Card.Img variant="top" src="/book.png" />
                             <Card.Body>
@@ -65,7 +65,7 @@ export default function Books() {
                 </p>
 
                 <div className={styles.grid}>
-                    <a>
+                    <a href="https://drive.google.com/drive/folders/1FkFCn5DMfIQwzXLqSemy85BzLa7LoBHw" target="_blank" >
                         <Card style={{ width: '12rem' }} className={styles.books}>
                             <Card.Img variant="top" src="/book.png" />
                             <Card.Body>
@@ -74,7 +74,7 @@ export default function Books() {
                         </Card>
                     </a>
 
-                    <a>
+                    <a href="https://drive.google.com/drive/folders/1ClYlUkSRUmJAhXMKdkBszUCH2m50MqTS" target="_blank" >
                         <Card style={{ width: '12rem' }} className={styles.books}>
                             <Card.Img variant="top" src="/book.png" />
                             <Card.Body>
@@ -83,7 +83,7 @@ export default function Books() {
                         </Card>
                     </a>
 
-                    <a>
+                    <a href="https://drive.google.com/drive/folders/1VYVtM4Z3cX6VCd280a2DIJBMZRhhtRwR" target="_blank" >
                         <Card style={{ width: '12rem' }} className={styles.books}>
                             <Card.Img variant="top" src="/book.png" />
                             <Card.Body>
