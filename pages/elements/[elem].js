@@ -15,9 +15,6 @@ export default function Element(pageProps) {
                             element == "Trevas" ? styles.Trevas :
                                 element == "Negro" ? styles.Negro : styles.Gelo}>
             
-            {/* White background for description of each element */}
-            <div className={styles.elementDescription}></div>
-            
             <div className={styles.main}>
                 
                 <Head>
@@ -25,7 +22,7 @@ export default function Element(pageProps) {
                     <link rel="icon" href="/favicon.ico" />
                 </Head>
 
-                <h1 style={{fontSize: '5vw', padding: '2% 0'}}>{element}</h1>
+                <h1>{element}</h1>
 
                 <img className={styles.element} src={'/' + `${element}` + '.png'} />
                 <p>{pageProps.data.description}</p>

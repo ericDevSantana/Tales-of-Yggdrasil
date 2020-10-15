@@ -47,7 +47,7 @@ export default function Contacts() {
 
                     <Form.Group controlId="exampleForm.ControlTextarea1">
                         <Form.Label>Mensagem</Form.Label>
-                        <Form.Control style={{resize: 'none'}} as="textarea" rows="10" value={contactMessage.message} onChange={handleChanges} name="message" required/>
+                        <Form.Control style={{resize: 'none'}} as="textarea" rows="8" value={contactMessage.message} onChange={handleChanges} name="message" required/>
                     </Form.Group>
                     <Button type="submit" variant="secondary" onClick={handleSubmit}>Enviar</Button>{' '}
                 </Form>

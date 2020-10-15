@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.css'
 
 export default function Project() {
     return (
-        <div>
+        <div className={styles.projectMain}>
             <Head>
                 <title>O Projeto</title>
                 <link rel="icon" href="/favicon.ico" />
@@ -60,6 +60,13 @@ export default function Project() {
                         <h2>Arte Livros</h2>
                         <p>
                         <a href="https://www.flaticon.com/authors/freepik" target="_blank" >Freepik</a>
+                        </p>
+                    </li>
+
+                    <li>
+                        <h2>Arte Principal</h2>
+                        <p>
+                        <a href="https://pixabay.com/users/jcragaru34-6733407/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5176259" target="_blank" >Jean C Ragaru</a>
                         </p>
                     </li>
 

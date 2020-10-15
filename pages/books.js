@@ -9,9 +9,6 @@ export default function Books() {
                 <title>Os Livros</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-
-            {/* White background for description of each element */}
-            <div className={styles.elementDescription}></div>
             
             <main className={styles.main}>
                 <h1>Os Livros</h1>

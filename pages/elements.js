@@ -5,13 +5,13 @@ import { Button, Card } from 'react-bootstrap'
 
 export default function Elements() {
     return (
-        <div className={styles.races}>
+        <div className={styles.elementsMain}>
             <Head>
                 <title>Elementos</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
-            <main className={styles.main} style={{ padding: '1% 5%' }}>
+            <main className={styles.main} style={{ padding: '1% 10%' }}>
                 <h1>Os Elementos</h1>
                 <div className={styles.grid}>
                     
