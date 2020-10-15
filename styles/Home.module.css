@@ -214,11 +214,10 @@
 
 .grid {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
-
-  max-width: 200rem;
+  width: 1335px;
 }
 
 .card {
@@ -257,12 +256,13 @@
 }
 
 .racesFlags {
-  margin: 60px 25px 60px 25px;
+  margin: 50px;
+  text-align: center;
 }
 
 .racesFlags img {
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   border-radius: 10%;
   transition: .2s;
 }
@@ -290,6 +290,12 @@
   height: 70%;
   width: 80%;
   margin-top: -150px;
+}
+
+@media (max-width: 1700px) {
+  .grid {
+    width: 100%;
+  }
 }
 
 @media (max-width: 600px) {

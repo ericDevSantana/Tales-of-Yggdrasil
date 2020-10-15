@@ -11,7 +11,7 @@ export default function Races() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
-            <main className={styles.main} style={{ padding: '1% 10%' }}>
+            <main className={styles.main} style={{ padding: '1% 15%' }}>
                 <h1>As Raças</h1>
                 <div className={styles.grid}>
                     
