@@ -1,4 +1,4 @@
-I'm working on a landing page for a TTRPG (Tabletop role playing game)<br/><br/>
+Landing page for a TTRPG (Tabletop role playing game)<br/><br/>
 Currently using: <br/>
 [Next.js](https://nextjs.org/)<br/>
 [Material-ui](https://material-ui.com/)<br/>
