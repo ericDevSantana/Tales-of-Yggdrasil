@@ -1,5 +1,5 @@
 Landing page for a TTRPG (Tabletop role playing game)<br/><br/>
-Currently using: <br/>
+Used packages: <br/>
 [Next.js](https://nextjs.org/)<br/>
 [Material-ui](https://material-ui.com/)<br/>
 [React Bootstrap](https://react-bootstrap.github.io/)<br/>
