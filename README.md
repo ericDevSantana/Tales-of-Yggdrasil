@@ -5,6 +5,8 @@ Currently using: <br/>
 [React Bootstrap](https://react-bootstrap.github.io/)<br/>
 [Bootstrap](https://getbootstrap.com/)<br/>
 
+![alt-text](https://github.com/ericDevSantana/Tales-of-Yggdrasil/blob/master/tales.png)
+
 # First Step
 
 First, run the development server:
