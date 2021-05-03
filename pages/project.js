@@ -52,7 +52,7 @@ export default function Project() {
                     <li>
                         <h2>Website</h2>
                         <p>
-                        <a href="https://www.linkedin.com/in/eric-santana-14438032/" target="_blank" >Eric Santana</a>
+                        <a href="https://www.linkedin.com/in/eric-santana-14438032/" target="_blank" >Eric S.</a>
                         </p>
                     </li>
 
