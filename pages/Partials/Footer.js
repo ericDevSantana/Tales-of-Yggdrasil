@@ -7,7 +7,7 @@ export default function Footer() {
     return (
         <footer className={styles.footer}>
             
-            <div className={styles.grid, styles.icon}>
+            <div className={[styles.grid, styles.icon]}>
                 
                 <a style={{color: 'blue'}} href="https://www.facebook.com/toyrpg" target="_blank">
                     <FacebookIcon fontSize="small" />

@@ -18,7 +18,7 @@ export default function Project() {
 
                 <p>
                     Agradeço desde já a todos que adquirirem os livros, pois vocês estarão ajudando a transformar este projeto em algo grandioso! Lembrem-se que TOY RPG ainda está em Acesso Antecipado, e por isto é sujeito a mudanças. 
-                    Faça o download dos mapas dos 5 continentes de Yggdrasil logo a baixo! Alguns mapas tiveram de ser separados por partes pois são muito grandes. Lembre-se que esta é a versão artística dos mapas, e NÃO estão em escala real!
+                    Faça o download dos mapas dos 5 continentes de Yggdrazil logo a baixo! Alguns mapas tiveram de ser separados por partes pois são muito grandes. Lembre-se que esta é a versão artística dos mapas, e NÃO estão em escala real!
                 </p>
                 
                 <h1>Colaboladores</h1>

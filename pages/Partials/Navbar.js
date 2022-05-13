@@ -3,7 +3,7 @@ import { Nav, Navbar } from 'react-bootstrap'
 export default function NavigationBar() {
     return (
         <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
-            <Navbar.Brand href="/">Tales of Yggdrasil</Navbar.Brand>
+            <Navbar.Brand href="/">Tales of Yggdrazil</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">

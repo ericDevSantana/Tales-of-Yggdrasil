@@ -14,9 +14,9 @@ export default function World() {
             {/* <div className={styles.elementDescription}></div> */}
             
             <main className={styles.main}>
-                <h1>O Mundo de Yggdrasil</h1>
+                <h1>O Mundo de Yggdrazil</h1>
                 <p>
-                    Yggdrasil é composta por 5 cinco continentes; Continente Verde, coberto por grandes florestas. Continente Branco composto por diversas planícies. Continente Azul, um gigantesco mar rico em ilhas. Continente Vermelho, e suas inúmeras cadeias de montanhas. Continente Preto, local de sombrios e apavorantes pântanos. Todos separados por desertos sem fim.
+                    Yggdrazil é composta por 5 cinco continentes; Continente Verde, coberto por grandes florestas. Continente Branco composto por diversas planícies. Continente Azul, um gigantesco mar rico em ilhas. Continente Vermelho, e suas inúmeras cadeias de montanhas. Continente Preto, local de sombrios e apavorantes pântanos. Todos separados por desertos sem fim.
                     Existem várias raças com seus próprios reinos, mas as maiores são; A raça guerreira Aasgardiana, de Midgard. Os artesões mágicos Atlantes da cidade-estado Atlantis. Os Methaliers, na caótica cidade-estado Mechaforja. Phantons, uma raça quase extinta que vive em Nifelheim. Teranos, que se fecham na cidade-árvore Gaia. Observando e gerenciando toda Yggdrasil, o Império dos Dragões.
                 </p>
                 

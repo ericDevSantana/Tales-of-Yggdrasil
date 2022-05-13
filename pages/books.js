@@ -13,7 +13,7 @@ export default function Books() {
             <main className={styles.main}>
                 <h1>Os Livros</h1>
                 <p>
-                    Tales of Yggdrasil RPG conta com vários livros para apresentar seu vasto mundo para os jogadores. Livros de regras sobre como jogar seu sistema de RPG, livros das magias, e livros de lores. Estes livros podem ser adquiridos pela loja virtual.
+                    Tales of Yggdrazil RPG conta com vários livros para apresentar seu vasto mundo para os jogadores. Livros de regras sobre como jogar seu sistema de RPG, livros das magias, e livros de lores. Estes livros podem ser adquiridos pela loja virtual.
                 </p>
                 <p>
                     Por ainda estar em fase de early-access, os livros estão em um formato bem simples, e parte de seu conteúdo resumido, mas não se engane! Ao adquirir estes livros, você estará contribuindo para que TOY RPG se torne um jogo grande, e com sua ajuda poderemos adicionar ainda mais conteúdos e melhorar o que já existe!
