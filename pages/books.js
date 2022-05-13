@@ -30,7 +30,7 @@ export default function Books() {
           compra dos livros.
         </p>
 
-        <div className={styles.grid}>
+        {/* <div className={styles.grid}>
           <a
             // href="https://www.amazon.com.br/dp/B083RCZWM6/ref=sr_1_3?qid=1578789520&refinements=p_27%3ALucas+Yabu&s=digital-text&sr=1-3&text=Lucas+Yabu"
             // target="_blank"
@@ -92,13 +92,8 @@ export default function Books() {
               </Card.Body>
             </Card>
           </a>
-        </div>
-
-        <p className={styles.paragraphs}>
-          Os livros de magia da Tier 1, Tier 2 e Tier 3 podem ser baixados,
-          juntamente de suas fichas, gratuitamente aqui!
-        </p>
-
+        </div> */}
+{/* 
         <div className={styles.grid}>
           <a
             // href="https://drive.google.com/drive/folders/1FkFCn5DMfIQwzXLqSemy85BzLa7LoBHw"
@@ -135,7 +130,7 @@ export default function Books() {
               </Card.Body>
             </Card>
           </a>
-        </div>
+        </div> */}
       </main>
     </div>
   );
