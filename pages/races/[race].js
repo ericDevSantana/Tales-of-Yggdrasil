@@ -9,10 +9,10 @@ export default function Race(pageProps) {
     return (
         // This will display the proper style for each element
         <div className={
-            race == "Aasgardianos" ? styles.aasgardianos :
-                race == "Atlantes" ? styles.atlantes :
+            race == "Aasgardians" ? styles.aasgardianos :
+                race == "Atlanteans" ? styles.atlantes :
                     race == "Methaliers" ? styles.methaliers :
-                        race == "Olympianos" ? styles.olympianos :
+                        race == "Olympians" ? styles.olympianos :
                             race == "Phantons" ? styles.phantons :
                                 styles.teranos}>
             
@@ -27,18 +27,20 @@ export default function Race(pageProps) {
                 </Head>
 
                 <h1>{race}</h1>
-                <div className={styles.grid} style={{backgroundColor: 'white', borderRadius: '10px', marginBottom: '20px'}}>
+                <div className={styles.grid} >
                     <div className={styles.racesImages}>
-                        <img style={{float: 'left', margin: '0 30px 0 30px'}} src={'/' + `${race}` + '_female.png'} />
-                        <img style={{float: 'right', margin: '0 30px 0 30px'}} src={'/' + `${race}` + '_male.png'} />
+                        {/* <img style={{float: 'left', margin: '0 30px 0 30px'}} src={'/' + `${race}` + '_female.png'} />
+                        <img style={{float: 'right', margin: '0 30px 0 30px'}} src={'/' + `${race}` + '_male.png'} /> */}
+                        <img src={'/' + `${race}` + '.png'} />
                     </div>
+                    
                     
                 </div>
 
                 {/* Need to break text into paragraphs and then display then on a list */}
                 {/* <p>{pageProps.data.description}</p> */}
                 {paragraphs.map((paragraph, index) => {
-                    return <p key={index}>{paragraph}</p>
+                    return <p className={styles.paragraphs} key={index}>{paragraph}</p>
                 })}
             </div>
 

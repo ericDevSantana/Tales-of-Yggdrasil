@@ -22,7 +22,7 @@ export default function Contacts() {
     function handleSubmit(event) {
         // window.open('mailto:yabu.games@outlook.com?subject=subject&body=' + contactMessage.message);
         if (contactMessage.subject !== "" && contactMessage.message !== "") {
-            window.open("https://mail.google.com/mail/?view=cm&fs=1&tf=1&su=" + contactMessage.subject + "&to=yabu.games@outlook.com&body=" + contactMessage.message);
+            window.open("https://mail.google.com/mail/?view=cm&fs=1&tf=1&su=" + contactMessage.subject + "&to=toy.yabu@gmail.com&body=" + contactMessage.message);
     
         }
     }
@@ -30,7 +30,7 @@ export default function Contacts() {
     return (
         <div>
             <Head>
-                <title>Contact Me</title>
+                <title>Contato</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 

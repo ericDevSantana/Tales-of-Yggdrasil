@@ -1,6 +1,6 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
-import {Image} from 'react-bootstrap'
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
+import { Image } from "react-bootstrap";
 
 export default function Home() {
   return (
@@ -9,27 +9,33 @@ export default function Home() {
         <title>Tales of Yggdrasil</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      
-      <main className={styles.main}>  
 
-        <Image className={styles.logo} src='/extendedlogo.png' fluid/>
-      
+      <main className={styles.main}>
+        <Image className={styles.logo} src="/frontPage.jpeg" fluid />
       </main>
 
-      <div style={{ backgroundColor: 'white', fontSize: '1.15rem', textAlign: 'justify', padding: '2% 15%', opacity: '100%' }}>
-        
-        <p>
-            Tales of Yggdrazil é um RPG de mesa ainda em desenvolvimento, mas seu early access 
-            (acesso antecipado) já está disponível para ser jogado. O Livro do Jogador e Livro do Mestre podem ser adquiridos através deste site.
-            Por ainda estar no early access, o conteúdo disponível ainda é simples, mas novos conteúdos serão adicionados 
-            com o tempo, e o que está disponível poderá sofrer alterações. Quem adquirir os livros durante o período de acesso 
-            antecipado receberá as atualizações de ambos os livros gratuitamente.
-          </p>
+      <div
+        style={{
+          backgroundColor: "white",
+          fontSize: "1.15rem",
+          textAlign: "justify",
+          padding: "2% 15%",
+          opacity: "100%",
+        }}
+      >
+        <p className={styles.paragraphs}>
+          Tales of Yggdrazil será uma série de livros de fantasia com seu
+          próprio sistema de RPG de mesa que ainda está em desenvolvimento.
+          Recentemente passou pela sua faze de testes fechado, e a fase de
+          testes abertos irá começar *em breve*, siga nossas redes sociais para
+          saber quando os livros estarão disponíveis!
+        </p>
 
-        <h2 style={{textAlign: 'center'}}>Explore um pouco deste mundo incrível através deste site!</h2>
-
+        <p className={styles.paragraphs} style={{ textAlign: "center" }}>
+          Enquanto isso explore um pouco deste mundo incrível através deste
+          site!
+        </p>
       </div>
-      
     </div>
-  )
+  );
 }

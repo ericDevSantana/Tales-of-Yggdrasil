@@ -15,39 +15,39 @@ export default function Races() {
                 <h1>As Raças</h1>
                 <div className={styles.grid}>
                     
-                    <Link href="/races/[race]" as={`/races/Aasgardianos`}>
+                    <Link href="/races/[race]" as={`/races/Aasgardians`}>
                         <div className={styles.racesFlags}>
-                            <img src="/Aasgardian.png"/>
+                            <img src="/Aasgardian Flag.png"/>
                         </div>
                     </Link>
 
-                    <Link href="/races/[race]" as={`/races/Atlantes`}>
+                    <Link href="/races/[race]" as={`/races/Atlanteans`}>
                         <div className={styles.racesFlags}>
-                            <img src="/Atlantean.png"/>
+                            <img src="/Atlantean Flag.png"/>
                         </div>
                     </Link>
 
                     <Link href="/races/[race]" as={`/races/Methaliers`}>
                         <div className={styles.racesFlags}>
-                            <img src="/Methalier.png"/>
+                            <img src="/Methalier Flag.png"/>
                         </div>
                     </Link>
 
-                    <Link href="/races/[race]" as={`/races/Olympianos`}>
+                    <Link href="/races/[race]" as={`/races/Olympians`}>
                         <div className={styles.racesFlags}>
-                            <img src="/Olympian.png"/>
+                            <img src="/Olympian Flag.png"/>
                         </div>
                     </Link>
 
                     <Link href="/races/[race]" as={`/races/Phantons`}>
                         <div className={styles.racesFlags}>
-                            <img src="/Phantons.png"/>
+                            <img src="/Phantons Flag.png"/>
                         </div>
                     </Link>
 
-                    <Link href="/races/[race]" as={`/races/Teranos`}>
+                    <Link href="/races/[race]" as={`/races/Terans`}>
                         <div className={styles.racesFlags}>
-                            <img src="/Teran.png"/>
+                            <img src="/Teran Flag.png"/>
                         </div>
                     </Link>
 

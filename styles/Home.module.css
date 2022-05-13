@@ -32,13 +32,13 @@
 
 .races {
   background-image: url("../public/cubes.png");
-  background-color: black;
+  background-color: #2f3640;
   color: whitesmoke;
 }
 
 .elementsMain {
   background-image: url("../public/cubes.png");
-  background-color: black;
+  background-color: #2f3640;
   color: whitesmoke;
 }
 
@@ -51,7 +51,8 @@
 }
 
 .home {
-  background-image: url("../public/landscapes-5176259_1920.jpg");
+  /* background-image: url("../public/landscapes-5176259_1920.jpg"); */
+  background-color: black;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -247,12 +248,13 @@
 }
 
 .racesImages {
-  margin: 20px;
+  margin: 50px;
   width: 100%;
 }
 
 .racesImages img{
-  height: 600px;
+  width: 100%;
+  border-radius: 10px;
 }
 
 .racesFlags {
@@ -287,13 +289,22 @@
 }
 
 .logo {
-  height: 70%;
-  width: 80%;
-  margin-top: -150px;
+  border-radius: 10px;
+  width: 100%;
+  /* margin-top: -150px; */
 }
 
 @media (max-width: 1700px) {
   .grid {
+    width: 100%;
+  }
+
+  .main {
+    padding: 5%;
+  }
+
+  .logo {
+    height: 100%;
     width: 100%;
   }
 }
@@ -323,8 +334,17 @@
     width: 100%;
   }
 
-  .racesImages img {
-    height: 70%;
+  .racesImages {
+    margin: 0 0 20px 0;
+    width: 100%;
+  }
+
+  /* .racesImages img {
+
+  } */
+
+  .paragraphs {
+    font-size: 15px;
     width: 100%;
   }
 
@@ -336,6 +356,10 @@
   .colabList h2 {
   font-size: 4vw;
   transition: 1s;
+  }
+
+  .contacts {
+    padding: 10%;
   }
 
   .main {

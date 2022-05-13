@@ -25,7 +25,7 @@ export default function Element(pageProps) {
                 <h1>{element}</h1>
 
                 <img className={styles.element} src={'/' + `${element}` + '.png'} />
-                <p>{pageProps.data.description}</p>
+                <p className={styles.paragraphs}>{pageProps.data.description}</p>
             </div>
 
         </div>
