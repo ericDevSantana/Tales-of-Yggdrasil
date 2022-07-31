@@ -46,6 +46,16 @@
   background-image: url("../public/cubes.png");
 }
 
+.contImages {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contImages a {
+  margin: 15px;
+}
+
 .rpg {
   background-image: url("../public/cubes.png");
 }
@@ -143,7 +153,7 @@
 
 /* Blurry div for descriptions on top of backgrounds */
 .elementDescription {
-  background-color:white;
+  background-color: white;
   filter: blur(10px);
   top: 0;
   bottom: 0;
@@ -229,11 +239,11 @@
 .card img {
   height: 300px;
   width: 300px;
-  transition: .2s;
+  transition: 0.2s;
 }
 
-.card > img:hover{
-  transform: scale(1.25,1.25);
+.card > img:hover {
+  transform: scale(1.25, 1.25);
 }
 
 .card:hover,
@@ -252,7 +262,7 @@
   width: 100%;
 }
 
-.racesImages img{
+.racesImages img {
   width: 100%;
   border-radius: 10px;
 }
@@ -266,12 +276,12 @@
   width: 250px;
   height: 250px;
   border-radius: 10%;
-  transition: .2s;
+  transition: 0.2s;
 }
 
 .racesFlags:hover img {
   cursor: pointer;
-  transform: scale(1.25,1.25);
+  transform: scale(1.25, 1.25);
 }
 
 .books {
@@ -310,9 +320,12 @@
 }
 
 @media (max-width: 600px) {
-
   .main h1 {
     font-size: 5vw;
+  }
+
+  .contImages {
+    flex-direction: column;
   }
 
   .grid {
@@ -354,8 +367,8 @@
   }
 
   .colabList h2 {
-  font-size: 4vw;
-  transition: 1s;
+    font-size: 4vw;
+    transition: 1s;
   }
 
   .contacts {
@@ -366,5 +379,4 @@
     padding: 1% 5%;
     min-height: 40vh;
   }
-
 }

@@ -1,6 +1,6 @@
 import Head from "next/head";
+import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import { Card } from "react-bootstrap";
 
 export default function World() {
   return (
@@ -38,10 +38,39 @@ export default function World() {
           esconde entre os escombros da guerra.
         </p>
 
-        <p className={styles.paragraphs}>
+        <div className={styles.contImages}>
+          <a href="/blueCont.png" target="_blank">
+            <Image
+              src="/blueCont.png"
+              alt="Blue Continent"
+              width={500}
+              height={500}
+            />
+          </a>
+
+          <a href="/greenCont.png" target="_blank">
+            <Image
+              src="/greenCont.png"
+              alt="Blue Continent"
+              width={500}
+              height={500}
+            />
+          </a>
+
+          <a href="/redCont.png" target="_blank">
+            <Image
+              src="/redCont.png"
+              alt="Blue Continent"
+              width={500}
+              height={500}
+            />
+          </a>
+        </div>
+
+        {/* <p className={styles.paragraphs}>
           Em breve uma amostra dos mapas estarão disponíveis para serem baixados
           gratuitamente!
-        </p>
+        </p> */}
 
         {/* <a 
                 href="https://drive.google.com/drive/folders/1hDFYTrn_hY52k-gh-hf-3UlV2F47vl6w" 
