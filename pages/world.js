@@ -51,7 +51,7 @@ export default function World() {
           <a href="/greenCont.png" target="_blank">
             <Image
               src="/greenCont.png"
-              alt="Blue Continent"
+              alt="Green Continent"
               width={500}
               height={500}
             />
@@ -60,7 +60,25 @@ export default function World() {
           <a href="/redCont.png" target="_blank">
             <Image
               src="/redCont.png"
-              alt="Blue Continent"
+              alt="Red Continent"
+              width={500}
+              height={500}
+            />
+          </a>
+
+          <a href="/whiteCont.png" target="_blank">
+            <Image
+              src="/whiteCont.png"
+              alt="White Continent"
+              width={500}
+              height={500}
+            />
+          </a>
+
+          <a href="/blackCont.png" target="_blank">
+            <Image
+              src="/blackCont.png"
+              alt="Black Continent"
               width={500}
               height={500}
             />
