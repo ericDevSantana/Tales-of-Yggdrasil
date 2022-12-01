@@ -21,7 +21,7 @@ export default function Footer() {
                 
                 &nbsp;&nbsp;
 
-                <a href="https://tapas.io/series/O-mundo-de-Tales-of-Yggdrasil/info" target="_blank">
+                <a href="https://tapas.io/series/A-Histria-de-Yggdrazil---As-Grandes-Raas/info" target="_blank">
                     <img style={{width: '25px', height: '25px'}} src="tapas.svg" alt="Tapas icon"></img>
                 </a> 
 
