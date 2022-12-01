@@ -12,7 +12,7 @@ export default function Books() {
 
       <main className={styles.main}>
         <h1>Os Livros</h1>
-        <p className={styles.paragraphs}>
+        {/* <p className={styles.paragraphs}>
           Tales of Yggdrazil irá contar com uma série de livros que contarão
           várias histórias de seu vasto mundo. Também haverá o Livro do Mestre,
           Livro do Jogador, e Bestiário, contendo regras e informações
@@ -28,109 +28,27 @@ export default function Books() {
         <p className={styles.paragraphs}>
           Em breve estarão disponiveis nesta página os links para efetuar a
           compra dos livros.
+        </p> */}
+        <p className={styles.paragraphs}>
+          Tales of Yggdrazil irá contar com uma variedade de livros que contarão
+          várias histórias de seu vasto mundo. Também existem os livros do RPG
+          de TOY; Livro do Jogador, que contém as regras do jogo, e o Manual do
+          Mestre, que dá mais informações sobre o mundo e dicas para você narrar
+          suas próprias aventuras neste universo sempre em crescimento.
         </p>
 
-        {/* <div className={styles.grid}>
-          <a
-            // href="https://www.amazon.com.br/dp/B083RCZWM6/ref=sr_1_3?qid=1578789520&refinements=p_27%3ALucas+Yabu&s=digital-text&sr=1-3&text=Lucas+Yabu"
-            // target="_blank"
-          >
-            <Card
-              style={{ width: "12rem", height: "18rem" }}
-              className={styles.books}
-            >
-              <Card.Img variant="top" src="/book.png" />
-              <Card.Body>
-                <Card.Title style={{ color: "black" }}>Jogador</Card.Title>
-              </Card.Body>
-            </Card>
-          </a>
+        <p className={styles.paragraphs}>
+          Por ser um projeto indie os livros ainda estão em um formato bem
+          simplista, ao adquiri-los você estará ajudando não só o projeto do RPG
+          mas o mundo de Yggdrazil como um todo a crescer ainda mais! O Livro o
+          Jogador e Manual do Mestre podem ser adquiridos juntos em um combo de
+          apenas R$50.
+        </p>
 
-          <a
-            // href="https://www.amazon.com.br/dp/B083RCQDMS/ref=sr_1_2?qid=1578789629&refinements=p_27%3ALucas+Yabu&s=digital-text&sr=1-2&text=Lucas+Yabu"
-            // target="_blank"
-          >
-            <Card
-              style={{ width: "12rem", height: "18rem" }}
-              className={styles.books}
-            >
-              <Card.Img variant="top" src="/book.png" />
-              <Card.Body>
-                <Card.Title style={{ color: "black" }}>Mestre</Card.Title>
-              </Card.Body>
-            </Card>
-          </a>
-
-          <a
-            // href="https://www.amazon.com.br/dp/B083RDHPF1/ref=sr_1_1?qid=1578789645&refinements=p_27%3ALucas+Yabu&s=digital-text&sr=1-1&text=Lucas+Yabu"
-            // target="_blank"
-          >
-            <Card
-              style={{ width: "12rem", height: "18rem" }}
-              className={styles.books}
-            >
-              <Card.Img variant="top" src="/book.png" />
-              <Card.Body>
-                <Card.Title style={{ color: "black" }}>Bestiário</Card.Title>
-              </Card.Body>
-            </Card>
-          </a>
-
-          <a 
-            // href="https://www.amazon.com.br/dp/B0889N7JDS"
-            // target="_blank"
-            >
-            <Card
-              style={{ width: "12rem", height: "18rem" }}
-              className={styles.books}
-            >
-              <Card.Img variant="top" src="/book.png" />
-              <Card.Body>
-                <Card.Title style={{ color: "black" }}>
-                  Continente Verde
-                </Card.Title>
-              </Card.Body>
-            </Card>
-          </a>
-        </div> */}
-{/* 
-        <div className={styles.grid}>
-          <a
-            // href="https://drive.google.com/drive/folders/1FkFCn5DMfIQwzXLqSemy85BzLa7LoBHw"
-            // target="_blank"
-          >
-            <Card style={{ width: "12rem" }} className={styles.books}>
-              <Card.Img variant="top" src="/book.png" />
-              <Card.Body>
-                <Card.Title style={{ color: "black" }}>Tier 1</Card.Title>
-              </Card.Body>
-            </Card>
-          </a>
-
-          <a
-            // href="https://drive.google.com/drive/folders/1ClYlUkSRUmJAhXMKdkBszUCH2m50MqTS"
-            // target="_blank"
-          >
-            <Card style={{ width: "12rem" }} className={styles.books}>
-              <Card.Img variant="top" src="/book.png" />
-              <Card.Body>
-                <Card.Title style={{ color: "black" }}>Tier 2</Card.Title>
-              </Card.Body>
-            </Card>
-          </a>
-
-          <a
-            // href="https://drive.google.com/drive/folders/1VYVtM4Z3cX6VCd280a2DIJBMZRhhtRwR"
-            // target="_blank"
-          >
-            <Card style={{ width: "12rem" }} className={styles.books}>
-              <Card.Img variant="top" src="/book.png" />
-              <Card.Body>
-                <Card.Title style={{ color: "black" }}>Tier 3</Card.Title>
-              </Card.Body>
-            </Card>
-          </a>
-        </div> */}
+        <p className={styles.paragraphs}>
+          Mande um WhatsApp para o número (62) 99646-7971 para realizar a
+          compra!
+        </p>
       </main>
     </div>
   );

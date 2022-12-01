@@ -37,6 +37,12 @@ export default function World() {
           sussurros sem uma voz. Cabe aos heróis de hoje descobrirem o que se
           esconde entre os escombros da guerra.
         </p>
+        <p>
+          Quer saber mais sobre a lore deste mundo? Clique no link no rodapé
+          desta página para ler a série A História de Yggdrazil - As Grandes
+          Raças, que conta a história das raças jogáveis, lançando um capítulo
+          novo a cada 15 dias na segunda feira.
+        </p>
 
         <div className={styles.contImages}>
           <a href="/blueCont.png" target="_blank">

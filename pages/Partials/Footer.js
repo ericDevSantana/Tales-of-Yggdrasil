@@ -9,9 +9,9 @@ export default function Footer() {
             
             <div className={[styles.grid, styles.icon]}>
                 
-                <a style={{color: 'blue'}} href="https://www.facebook.com/toyrpg" target="_blank">
+                {/* <a style={{color: 'blue'}} href="https://www.facebook.com/toyrpg" target="_blank">
                     <FacebookIcon fontSize="small" />
-                </a>
+                </a> */}
                 
                 &nbsp;&nbsp;
 
